@@ -1,24 +1,15 @@
+
 # include <iostream>
 using namespace std;
-
-int main() {
-    cout << "C++" << endl;
-    cout << "Hello DSA";
-
+inline int max(int x,int y)
+{
+    return (x>y)?x:y;
+}
+int main()
+{
+    cout <<"max(20,10) : " <<max(20,10)<<endl;
+    cout<<"max(0,1000) : "<<max(0,1000)<<endl;
+    cout<<"max(100,1010) : "<<max(100,1010)<<endl;
+    
     return 0;
 }
-
-// # include <iostream>
-// using namespace std;
-// inline int max(int x,int y)
-// {
-//     return (x>y)?x:y;
-// }
-// int main()
-// {
-//     cout <<"max(20,10) : " <<max(20,10)<<endl;
-//     cout<<"max(0,1000) : "<<max(0,1000)<<endl;
-//     cout<<"max(100,1010) : "<<max(100,1010)<<endl;
-    
-//     return 0;
-// }
