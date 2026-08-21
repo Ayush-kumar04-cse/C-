@@ -1,54 +1,54 @@
-// #include <iostream>
-// using namespace std;
+#include <iostream>
+using namespace std;
 
-// class item
-// {
-//     int number;
-//     static int count;
+class item
+{
+    int number;
+    static int count;
 
-// public:
-//     void getdata(int a)
-//     {
-//         number = a;
-//         count++;
-//     }
+public:
+    void getdata(int a)
+    {
+        number = a;
+        count++;
+    }
 
-//     void getcount()
-//     {
-//         cout << "count : " << count << endl;
-//     }
-//     void getnumber()
-//     {
-//         cout << "number : " << number << endl;
-//     }
+    void getcount()
+    {
+        cout << "count : " << count << endl;
+    }
+    void getnumber()
+    {
+        cout << "number : " << number << endl;
+    }
 
-// };
+};
 
-// // Define the static data member
-// int item::count ;
+// Define the static data member
+int item::count ;
 
-// int main()
-// {
-//     item a, b, c;
+int main()
+{
+    item a, b, c;
 
-//     a.getcount();
-//     b.getcount();
-//     c.getcount();
+    a.getcount();
+    b.getcount();
+    c.getcount();
 
-//     a.getdata(500);
-//     b.getdata(700);
-//     c.getdata(800);
+    a.getdata(500);
+    b.getdata(700);
+    c.getdata(800);
 
-//     a.getnumber();
-//     b.getnumber();
-//     c.getnumber();
+    a.getnumber();
+    b.getnumber();
+    c.getnumber();
 
-//     a.getcount();
-//     b.getcount();
-//     c.getcount();
+    a.getcount();
+    b.getcount();
+    c.getcount();
 
-//     return 0;
-// }
+    return 0;
+}
 
 
 
