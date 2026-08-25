@@ -1,13 +1,13 @@
-// # include <iostream>
-// # include  <cmath>
-// using namespace std;
-// int main(){
-//     int x = - 5;
-//     float y = -5.343;
-//     cout<<"The absolute value of x is: "<<abs(x)<<endl;
-//     cout<<"The absolute value of y is: "<<fabs(y)<<endl;
-//     return 0;
-// }
+# include <iostream>
+# include  <cmath>
+using namespace std;
+int main(){
+    int x = - 5;
+    float y = -5.343;
+    cout<<"The absolute value of x is: "<<abs(x)<<endl;
+    cout<<"The absolute value of y is: "<<fabs(y)<<endl;
+    return 0;
+}
 
 # include <iostream>
 using namespace std;
